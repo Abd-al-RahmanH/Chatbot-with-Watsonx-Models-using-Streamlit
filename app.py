@@ -32,8 +32,6 @@ from langchain_ibm import WatsonxLLM
 api_key =   os.getenv("API_KEY")
 project_id = os.getenv("PROJECT_ID")
 
-"""api_key=be2PIyqJbKm9LwNDRvWeA8Bp2Dc2TQt30rw2OAd-PPKf
-project_id=11b29d9b-5940-41da-a2c7-86a17f270bf7 """
 creds = {
     "url"    : "https://us-south.ml.cloud.ibm.com",
     "apikey" : api_key
