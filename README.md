@@ -1,11 +1,13 @@
-# ChatwithLLM
-
-
+---
 title: Rahmans Watsonx
-emoji: 📈
-colorFrom: yellow
-colorTo: purple
+emoji: ⚡
+colorFrom: red
+colorTo: blue
 sdk: streamlit
 sdk_version: 1.35.0
 app_file: app.py
 pinned: false
+license: mit
+---
+
+#Chat with LLM
