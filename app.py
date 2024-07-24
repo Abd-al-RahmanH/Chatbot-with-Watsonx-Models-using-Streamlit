@@ -1,5 +1,5 @@
 import os
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 import streamlit as st
 
 # from genai.credentials import Credentials
@@ -29,11 +29,11 @@ from langchain_ibm import WatsonxLLM
 #     stop_sequences= ["Human:","AI:"],
 # )
 
-"""api_key =   os.getenv("API_KEY", None)
-project_id = os.getenv("PROJECT_ID", None)"""
+api_key =   os.getenv("API_KEY", None)
+project_id = os.getenv("PROJECT_ID", None)
 
-api_key="be2PIyqJbKm9LwNDRvWeA8Bp2Dc2TQt30rw2OAd-PPKf"
-project_id="11b29d9b-5940-41da-a2c7-86a17f270bf7"
+"""api_key="be2PIyqJbKm9LwNDRvWeA8Bp2Dc2TQt30rw2OAd-PPKf"
+project_id="11b29d9b-5940-41da-a2c7-86a17f270bf7""""
 creds = {
     "url"    : "https://us-south.ml.cloud.ibm.com",
     "apikey" : api_key
