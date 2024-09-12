@@ -1,15 +1,3 @@
----
-title: Rahmans Watsonx
-emoji: ⚡
-colorFrom: red
-colorTo: blue
-sdk: streamlit
-sdk_version: 1.35.0
-app_file: app.py
-pinned: false
-license: mit
----
-
 # Chat with WatsonX LLM
 
 This project demonstrates how to build a chatbot using Watsonx foundational models integrated with Streamlit. The app allows real-time interactions with a large language model (LLM), providing a simple yet powerful interface to chat with AI.
@@ -26,3 +14,15 @@ This project demonstrates how to build a chatbot using Watsonx foundational mode
 
 ## License
 This project is licensed under the MIT License.
+
+---
+title: Rahmans Watsonx
+emoji: ⚡
+colorFrom: red
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.35.0
+app_file: app.py
+pinned: false
+license: mit
+---
