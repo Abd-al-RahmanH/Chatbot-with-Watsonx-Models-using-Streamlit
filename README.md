@@ -28,4 +28,7 @@ This project demonstrates how to build a chatbot using Watsonx foundational mode
 ## License
 This project is licensed under the MIT License.
 
+## Show your support
+If you like this project, feel free to give it a ⭐ 
+
 
