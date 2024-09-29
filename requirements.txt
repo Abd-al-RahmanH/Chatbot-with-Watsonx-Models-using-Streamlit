@@ -1,3 +1,4 @@
 streamlit
 ibm-watson-machine-learning
 langchain-ibm
+python-dotenv
