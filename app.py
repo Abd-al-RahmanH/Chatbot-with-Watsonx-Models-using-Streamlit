@@ -60,7 +60,7 @@ with st.chat_message("system"):
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-llm = Model(ModelTypes.LLAMA_2_70B_CHAT,creds,params,project_id)
+llm = Model(ModelTypes.CODELLAMA_34B_INSTRUCT_HF,creds,params,project_id)
 
 # llm = Model(model="meta-llama/llama-2-7b-chat",credentials=creds, params=params)
 
