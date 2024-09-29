@@ -12,7 +12,7 @@ from ibm_watson_machine_learning.metanames import GenTextParamsMetaNames as GenP
 from langchain_ibm import WatsonxLLM
 
 
-#load_dotenv()
+load_dotenv()
 # api_key = os.getenv("GENAI_KEY", None)
 # api_endpoint = os.getenv("GENAI_API", None)
 
