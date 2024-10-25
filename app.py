@@ -39,7 +39,7 @@ creds = {
 
 params = {
     GenParams.DECODING_METHOD:"sample",
-    GenParams.MAX_NEW_TOKENS:200,
+    GenParams.MAX_NEW_TOKENS:2000,
     GenParams.MIN_NEW_TOKENS:1,
     GenParams.TEMPERATURE:0.7,
     GenParams.TOP_K:50,
