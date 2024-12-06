@@ -60,9 +60,9 @@ with st.chat_message("system"):
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-#llm = Model(ModelTypes.CODELLAMA_34B_INSTRUCT_HF,creds,params,project_id)
+llm = Model(ModelTypes.LLAMA_3_405_INSTRUCT,creds,params,project_id)
 
-llm = Model(model="meta-llama/llama-3-405b-instruct",credentials=creds, params=params)
+#llm = Model(model="meta-llama/llama-3-405b-instruct",credentials=creds, params=params)
 
 # Display chat messages from history on app rerun
 for message in st.session_state.messages:
