@@ -13,7 +13,7 @@ license: mit
 
 # Chat with WatsonX LLM:
 
-This project demonstrates how to build a chatbot using Watsonx foundational models integrated with Streamlit. The app allows real-time interactions with a large language model (LLM), providing a simple yet powerful interface to chat with AI.
+This project demonstrates how to build a chatbot using Watsonx foundational models integrated with Streamlit. The app allows real-time interactions with a large language model (LLM), providing a simple yet powerful interface to chat with AI
 
 ## Features
 - **Real-time Conversations:** Chat with Watsonx's LLM in a dynamic and responsive interface.
